@@ -1,12 +1,13 @@
 INSTALLATION 
 ----------------
-NodeJS and NPM 
-Supertest 
-Mocha - test framework 
-Chai  -assertion library 
-Babel (ES6+)
------------------
+1- NodeJS and NPM 
+2- Supertest 
+3- Mocha - test framework 
+4- Chai  -assertion library 
+5- Babel (ES6+)
+
 How it works: 
+-------------
 1- Create a new folder in your computer 
 2- execute  `npm init -y` in that folder 
 3- Now install all packages execute 
