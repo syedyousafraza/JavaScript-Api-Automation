@@ -29,7 +29,7 @@ describe('app library', () => {
                 }
             ]
         }
-       // request
+        // request
         //     .get(`users?access-token=${TOKEN}`).end((err,res)=>{
         //        expect(res.body.id).to.not.be.null;
         //        done();
@@ -44,26 +44,26 @@ describe('app library', () => {
                 console.log("body>" + res.body.key)
 
 
-            //    expect(res.data).to.be.null;    
-                expect(res.body).to.deep.include(responseData);     
- 
+                //    expect(res.data).to.be.null;    
+                expect(res.body).to.deep.include(responseData);
+
                 // expect(res.data.key).to.be.eq('salesforce');
                 // expect(res.data.key).to.be.eq('enterprise_sso');
 
 
             });
-        });
+    });
 
 
 
 
     it('get/ SalesForce', () => {
-    
+
 
         return request
             .get('app_library/salesforce/')
             .set('Authorization', `Bearer ${TOKEN}`)
-            .then((res) => {    
+            .then((res) => {
                 expect(res.body).to.not.be.null;
                 expect(res.body.data.data.type).to.be.eq('integrationSalesforce');
                 // expect(res.data.key).to.be.eq('enterprise_sso');
@@ -125,14 +125,14 @@ describe('app library', () => {
 
 
 
-   
 
 
 
 
 
 
-    });
+
+});
 
 
 
