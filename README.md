@@ -1,6 +1,6 @@
 INSTALLATION 
 ----------------
-1- NodeJS and NPM 
+1- NodeJS and NPM <br>
 2- Supertest 
 3- Mocha - test framework 
 4- Chai  -assertion library 
