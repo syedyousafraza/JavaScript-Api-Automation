@@ -108,7 +108,7 @@ describe('user', () => {
 
     //THIS IS DELETE REQUEST 
     //it.only command only execute this test case and ignore all others 'it' 
-    it.only('DELETE /user/:id', () => {
+    it('DELETE /user/:id', () => {
 
         return request
             .delete('users/3268')
