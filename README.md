@@ -12,6 +12,8 @@ How it works:
 2- execute  `npm init -y` in that folder <br>
 3- Now install all packages execute <br>
 `npm i --save-dev supertest mocha chai @babel/cli @babel/core @babel/node @babel/register @babel/preset-env`<br>
+OR if you want to use same version which is given in package.JSON file just execute command <br>
+`npm install`
 
 Once you done you need to configure babel and mocha with babel by creating a new files <br>
 - '.babelrc'
